@@ -9,7 +9,7 @@
 import Foundation
 
 internal extension String {
-
+    
     /// A string with the ' characters in it escaped.
     /// Used when passing a string into JavaScript, so the string is not completed too soon
     var escaped: String {
@@ -28,5 +28,4 @@ internal extension String {
         }
         return newString
     }
-
 }
