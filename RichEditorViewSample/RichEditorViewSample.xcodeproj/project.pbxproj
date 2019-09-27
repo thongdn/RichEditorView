@@ -172,7 +172,6 @@
 				39BBCFA71AD0CC7A00A450D2 /* Frameworks */,
 				39BBCFA81AD0CC7A00A450D2 /* Resources */,
 				EC2C7387672E1DFFBAB4967D /* [CP] Embed Pods Frameworks */,
-				F58AA77B1F1E89A768AFC497 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,12 +212,10 @@
 				TargetAttributes = {
 					39BBCFA91AD0CC7A00A450D2 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = XATA46WWFJ;
 						LastSwiftMigration = 0900;
 					};
 					39BBCFBE1AD0CC7A00A450D2 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = XATA46WWFJ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 39BBCFA91AD0CC7A00A450D2;
 					};
@@ -229,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -298,21 +296,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichEditorViewSample/Pods-RichEditorViewSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F58AA77B1F1E89A768AFC497 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichEditorViewSample/Pods-RichEditorViewSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -472,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XATA46WWFJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RichEditorViewSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cjwirth.$(PRODUCT_NAME:rfc1034identifier)";
@@ -490,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = XATA46WWFJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RichEditorViewSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cjwirth.$(PRODUCT_NAME:rfc1034identifier)";
@@ -505,7 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = XATA46WWFJ;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -523,7 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = XATA46WWFJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RichEditorViewSampleTests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cjwirth.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

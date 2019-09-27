@@ -407,7 +407,6 @@ import UIKit
         return true
     }
     
-    
     // MARK: UIGestureRecognizerDelegate
     
     /// Delegate method for our UITapGestureDelegate.
